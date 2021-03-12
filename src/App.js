@@ -23,7 +23,7 @@ class App extends React.Component {
   call = async (e) => {
     e.preventDefault();
     const Call = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&appid=${this.state.APIKey}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&appid=${this.state.APIKey}`
     );
     const Data = await Call.json();
     this.setState({
