@@ -1,4 +1,4 @@
-# verecel deployment link: https://learning-weather-app-fidopfjwb-dhruvinmoradiya.vercel.app/
+# verecel deployment link: https://learning-weather-app.vercel.app/
 
 # Getting Started with Create React App
 
